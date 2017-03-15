@@ -1,0 +1,8 @@
+temp=urllib.urlopen(url)
+mhpath=temp.read()
+temp.close()
+try:
+except
+抛出异常时执行except后的语句
+ping 10.0.0.1 －t > D:ping.txt CMD输出到txt
+>覆盖 >>追加
