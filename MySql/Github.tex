@@ -1,0 +1,15 @@
+% !TeX encoding = UTF-8
+\chapter{我的mysql学习笔记}
+\section{字符串类型}
+CHAR,VARCHAR,BLOG,TEXT,ENUM,SET.\\
+CHAR(M),最大长度为M的,长度固定.\\
+VARCHAR(M),长度可变,0-M,占用字符串长度+1(字符串结束符).0-65535\\
+ERROR 1406(22001)data too long for column,插入字符过长.\\
+CHAR会删除最后的空格?\\
+2.TEXT类型\\
+TINYTEXT 255\\
+TEXT 0-65535值长度+2\\
+MEDIUMTEXT 0-167772150\\
+LONGTEXT 0-4294967295\\
+3.ENUM枚举类型\\
+window service nameMySQL56
